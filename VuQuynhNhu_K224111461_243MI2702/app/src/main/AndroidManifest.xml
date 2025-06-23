@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,16 +13,22 @@
         android:theme="@style/Theme.VuQuynhNhu_K224111461_243MI2702"
         tools:targetApi="31">
         <activity
-            android:name=".AboutActivity"
+            android:name=".k22411cvuquynhnhu.CreateTaskActivity"
             android:exported="false" />
         <activity
-            android:name=".ProductDetailActivity"
+            android:name=".k22411cvuquynhnhu.AboutActivity"
             android:exported="false" />
         <activity
-            android:name=".ProductManagementActivity"
+            android:name=".k22411cvuquynhnhu.EmployeeTaskActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".k22411cvuquynhnhu.AdminTaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".k22411cvuquynhnhu.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".k22411cvuquynhnhu.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,9 +36,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
     </application>
 
 </manifest>

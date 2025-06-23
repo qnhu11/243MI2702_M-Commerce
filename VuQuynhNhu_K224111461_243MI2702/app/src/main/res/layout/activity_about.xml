@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AboutActivity">
+    tools:context=".k22411cvuquynhnhu.AboutActivity">
 
     <TextView
         android:id="@+id/txtStudentInfor"
@@ -14,7 +14,9 @@
         android:layout_height="wrap_content"
         android:text="@string/title_student_information"
         android:textAlignment="center"
+        android:textStyle="bold"
         android:textColor="#E21A1A"
+        android:paddingBottom="15dp"
         android:textSize="24sp" />
 
     <LinearLayout

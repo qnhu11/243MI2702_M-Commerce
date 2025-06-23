@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@android:color/white">
+
+    <!-- Tiêu đề task -->
+    <TextView
+        android:id="@+id/txtTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Title"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <!-- Ngày giao task -->
+    <TextView
+        android:id="@+id/txtDateAssigned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date Assigned"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

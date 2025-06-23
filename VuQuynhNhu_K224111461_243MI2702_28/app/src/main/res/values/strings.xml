@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">VuQuynhNhu_K224111461_243MI2702</string>
+    <string name="title_login_user_name">User name:</string>
+    <string name="title_login_user_name_hint">Enter your user name</string>
+    <string name="title_login_password">Password:</string>
+    <string name="title_login_save_infor">Save login infor</string>
+    <string name="title_login_btn">Login</string>
+    <string name="confirm_exit_title">Exit confirmation</string>
+    <string name="confirm_exit_message">Are you sure you want to exit?</string>
+    <string name="confirm_exit_yes">YES</string>
+    <string name="confirm_exit_no">NO</string>
+    <string name="menu_add">ADD</string>
+    <string name="menu_about">ABOUT</string>
+    <string name="title_student_infor">STUDENT INFORMATION</string>
+    <string name="title_student_information">STUDENT INFORMATION</string>
+    <string name="title_studentID">Student ID: K224111461</string>
+    <string name="title_student_name">Student Name: Vu Quynh Nhu</string>
+    <string name="title_student_email">Student email: nhuvq22411c@st.uel.edu.vn</string>
+    <string name="title_student_class">Class: K22411C</string>
+    <string name="tilte_product_id">Product ID:</string>
+    <string name="title_product_name">Product Name:</string>
+    <string name="title_product_code">Product Code:</string>
+    <string name="title_product_unitprice">Product UnitPrice:</string>
+    <string name="title_product_imglink">Product ImgLink:</string>
+    <string name="title_new">NEW</string>
+    <string name="title_save">SAVE</string>
+    <string name="title_remove">REMOVE</string>
+    <string name="title_product_details">PRODUCT DETAILS</string>
+</resources>

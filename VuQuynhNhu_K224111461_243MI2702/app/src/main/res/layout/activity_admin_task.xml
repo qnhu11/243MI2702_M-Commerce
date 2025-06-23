@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/main_admin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_list_of_tasks"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
+        android:textColor="#D32F2F"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!-- Button Create New Task -->
+    <Button
+        android:id="@+id/btnCreateTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_create_new_task"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#7E57C2"
+        android:textColor="#FFFFFF"
+        android:padding="12dp" />
+
+    <!-- ListView -->
+    <ListView
+        android:id="@+id/lvTasks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
