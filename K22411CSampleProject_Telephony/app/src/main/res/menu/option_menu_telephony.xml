@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_viettel"
+        android:title="Viettel" />
+    <item
+        android:id="@+id/menu_mobifone"
+        android:title="Mobifone" />
+    <item
+        android:id="@+id/menu_others"
+        android:title="Other" />
+</menu>
